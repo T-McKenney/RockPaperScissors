@@ -101,29 +101,3 @@ scissorsBtn.addEventListener("click", function userClick() {
 });
 document.body.appendChild(scissorsBtn);
 
-
-// function game() {
-//     let computerScore = 0
-//     let playerScore = 0
-//     let ties = 0
-
-//     for (let i = 0; i<5; i++) {
-//         let game = playRound();
-//         console.log('The score is:\n' + "Computer: " + computerScore + '\n' + "Player: " + playerScore + '\n' + "Ties: " + ties);
-        // if (game == "Computer wins!") {
-        //     computerScore+=1
-        // } else if (game == "Player wins!") {
-        //     playerScore+=1
-        // } else {
-        //     ties+=1
-        // }
-//     }
-
-//     if (computerScore==playerScore) {
-//         return "It's a tie."
-//     } else if (computerScore>playerScore) {
-//         return "The computer wins!"
-//     } else {
-//         return "The player wins!"
-//     }
-// }
